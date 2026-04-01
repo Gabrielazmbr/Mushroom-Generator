@@ -301,7 +301,7 @@ The project includes unit tests located in the `tests/` directory:
 
 ---
 
-![Mushroom Results](examples/images/mushroom_img_03.png)
+![Mushroom Results](examples/images/mushroom_img_04.png)
 
 ---
 
