@@ -6,6 +6,12 @@ This project is an interactive procedural mushroom generator developed for the A
 
 The application allows users to interactively modify mushroom parameters (stem, cap, gills, and scales) via a Qt interface and immediately visualize the result in a real-time OpenGL viewport. The final mushroom can be exported as a .obj file for later use in software like Houdini or Maya. The project focuses on procedural techniques (revolve, scatter, noise) and architectural clarity.
 
+---
+
+![Mushroom Results](examples/images/mushroom_img_01.png)
+
+---
+
 ## Architecture
 
 The project is structured as a Python package (mushroomgen) with the following separation of concerns:
@@ -117,6 +123,10 @@ This class centralizes noise configuration, making it easy to reuse consistent n
 
 ---
 
+![Mushroom Results](examples/images/mushroom_img_02.png)
+
+---
+
 ### `MushroomType` (`render/shaders/Vertex.glsl, Fragment.glsl`) 
 
 **Purpose:**  
@@ -223,6 +233,10 @@ This approach allows the stem and cap to be parametrically defined, making the s
 
 ---
 
+![Mushroom Results](examples/images/mushroom_img_03.png)
+
+---
+
 ## OpenGL Usage
 
 The OpenGLScene class renders procedural mushrooms in real time using modern OpenGL. It manages mesh creation, PBR shading, camera and projection setup, and interactive controls like rotation, translation, and zoom. It also allows real-time updates when mushroom parameters change and can export the mesh as an OBJ file. (examples of this in the `examples/` directory)
@@ -284,6 +298,10 @@ The project includes unit tests located in the `tests/` directory:
 - `test_build.py` – validates mushroom construction
 - `test_curves.py` – tests curve generation
 - `test_geometry.py` – checks hermite curves and catmul-rom logic
+
+---
+
+![Mushroom Results](examples/images/mushroom_img_03.png)
 
 ---
 
