@@ -1,0 +1,14 @@
+21:39:53 - INFO - Registered uniform: albedo (type: vec3, location: 21)
+21:39:53 - INFO - Registered array uniform: lightPositions[3] (type: vec3, location: 1)
+21:39:53 - INFO -   Also registered individual elements: lightPositions[0] to lightPositions[2]
+21:39:53 - INFO - Registered uniform: camPos (type: vec3, location: 4)
+21:39:53 - INFO - Registered array uniform: lightColors[3] (type: vec3, location: 5)
+21:39:53 - INFO -   Also registered individual elements: lightColors[0] to lightColors[2]
+21:39:53 - INFO - Registered uniform: M (type: mat4, location: 8)
+21:39:53 - INFO - Registered uniform: normalMatrix (type: mat3, location: 12)
+21:39:53 - INFO - Registered uniform: MVP (type: mat4, location: 15)
+21:39:53 - INFO - Registered uniform: roughness (type: float, location: 19)
+21:39:53 - INFO - Registered uniform: ao (type: float, location: 20)
+21:39:53 - INFO - Registered uniform: metallic (type: float, location: 0)
+21:39:53 - INFO - FOUND UNIFORM BLOCKS 0
+21:39:53 - INFO - Shader program 'PBR' created

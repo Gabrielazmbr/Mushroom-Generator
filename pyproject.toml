@@ -1,0 +1,24 @@
+[project]
+name = "mushroomgen"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "gabrielazmbr", email = "gabrielazmbr@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.4",
+    "pytest>=8.4.2",
+    "pyvista>=0.46.4",
+    "noise>=1.2.2",
+    "ncca-ngl>=0.3.4",
+]
+
+[project.scripts]
+mushroomgen = "mushroomgen:main"
+
+[build-system]
+requires = ["uv_build>=0.8.23,<0.9.0"]
+build-backend = "uv_build"
