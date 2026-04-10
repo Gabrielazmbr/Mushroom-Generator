@@ -1,4 +1,4 @@
-# Gabriela Zambrano Davila s5819176@bournemouth.ac.uk
+# Mushroom Generator
 
 ## Overview
 
