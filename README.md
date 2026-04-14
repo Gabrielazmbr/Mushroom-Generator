@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is an interactive procedural mushroom generator developed for the ASE assignment at NCCA. The goal of the project is to explore procedural geometry generation, OpenGL rendering, and Qt-based user interaction within modular Python architecture.
+This project is an interactive procedural mushroom generator. The goal of the project is to explore procedural geometry generation, OpenGL rendering, and Qt-based user interaction within modular Python architecture.
 
 The application allows users to interactively modify mushroom parameters (stem, cap, gills, and scales) via a Qt interface and immediately visualize the result in a real-time OpenGL viewport. The final mushroom can be exported as a .obj file for later use in software like Houdini or Maya. The project focuses on procedural techniques (revolve, scatter, noise) and architectural clarity.
 
